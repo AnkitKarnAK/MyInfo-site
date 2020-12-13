@@ -7,3 +7,4 @@ here, you can see my following info:
 1. webiste
 3. projects
 4. blogs
+5. other info
