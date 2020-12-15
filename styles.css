@@ -81,6 +81,10 @@ border-bottom-left-radius: 1rem;
     font-weight: bold;
 }
 
+.navigation .link {
+    color: white;
+}
+
 .navigation .link-active{
     font-weight: bold;
     font-size: 1.1rem;
@@ -135,6 +139,12 @@ border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
 
 }
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
 
 .footer .link{
     color:white;
