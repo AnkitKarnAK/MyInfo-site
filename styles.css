@@ -171,3 +171,21 @@ border-bottom-left-radius: 1rem;
 .showcase-list {
     padding: 2rem;
 }
+
+/* buttons */
+
+button {
+    color: var(--primary-color);
+    background-color:var(--primary-color);
+    /* border: 0rem solid var(--primary-color); */
+    border:0rem;
+    /* border-radius: 4px;
+    padding: 0 15px; */
+    cursor: pointer;
+    height:32px;
+    font-size:1.1rem;
+    transition: all 0.2s ease-in-out;
+    }
+    button:hover {
+    transform: scale(1.2);
+    }
