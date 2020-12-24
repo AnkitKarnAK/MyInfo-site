@@ -1,6 +1,6 @@
 /* import & typography */
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap'); 
 
 :root {
     --primary-color: #007bff;
@@ -113,6 +113,12 @@ hr {
     margin: auto;
 }
 
+.hero .footer-img {
+    max-width: 1px;
+    display: block;
+    margin: auto;
+}
+
 .hero .projects-hero-img {
     max-width: 200px;
     display: block;
@@ -196,4 +202,38 @@ button {
 
 button:hover {
     transform: scale(1.2);
+}
+
+/* Social buttons */
+
+.fa {
+    padding: 0.5rem;
+    /* font-size: 1rem; */
+    width: 1rem;
+    height: 1rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: .5rem;
+    margin: 0rem .2rem;
+    border: solid 1px white;
+} 
+
+.fa-github {
+    background-color: var(--primary-color);
+    color:white;
+}
+
+.fa:hover {
+    background-color:var(--dark-grey);
+}
+
+
+.fa-twitter {
+    background-color: var(--primary-color);
+    color:white;
+}
+
+.fa-linkedin {
+    background-color: var(--primary-color);
+    color:white;
 }
