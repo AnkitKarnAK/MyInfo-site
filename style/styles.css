@@ -248,3 +248,21 @@ button:hover {
     background-color: var(--primary-color);
     color:white;
 }
+
+
+/* Flexbox */
+
+
+@media(min-width:300px){
+    .flexx{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+}
+
+
+.flexx-item{
+    flex-basis: 80px;
+}
+
