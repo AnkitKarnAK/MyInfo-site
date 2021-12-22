@@ -47,7 +47,7 @@ hr {
     color: white;
 }
 .link-primary:hover{
-    background-color: #a64dff;
+    background-color: #2468d8;
 }
 
 .link-secondary {
@@ -56,7 +56,7 @@ hr {
     border: 1px solid var(--primary-color);
 }
 .link-secondary:hover{
-    background-color: #d9b3ff;
+    background-color: #f9fafb;
 }
 
 .link-blogs {
